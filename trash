@@ -1,0 +1,11 @@
+#!/bin/zsh
+
+if [ ! -d $HOME/.Trash ]; then
+    mkdir -p $HOME/.Trash
+fi
+
+for i in $@;
+do
+    mv $i $HOME/.Trash/
+done
+
