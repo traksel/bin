@@ -6,6 +6,11 @@ fi
 
 for i in $@;
 do
-    mv $i $HOME/.Trash/
+    # echo "$i"
+    if [ $i = $HOME/Desktop/Новая\ папка ]
+    then
+        echo "\"$i\" нельзя переместить в корзину"
+    else
+        mv $i $HOME/.Trash/
+    fi
 done
-
