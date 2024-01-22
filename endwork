@@ -1,0 +1,6 @@
+#!/bin/bash
+
+osascript -e 'quit app "Google Chrome"'
+osascript -e 'quit app "Visual Studio Code"'
+osascript -e 'quit app "Github Desktop"'
+osascript -e 'quit app "Telegram"'
