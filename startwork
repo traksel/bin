@@ -1,0 +1,8 @@
+#!/bin/bash
+
+APPLICATIONS_FOLDER="Applications"
+
+open "/$APPLICATIONS_FOLDER/Visual Studio Code.app"
+open "/$APPLICATIONS_FOLDER/Google Chrome.app"
+open "/$APPLICATIONS_FOLDER/Github Desktop.app"
+open "/$APPLICATIONS_FOLDER/Telegram.app"
