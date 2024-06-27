@@ -11,6 +11,6 @@ do
     then
         echo "\"$i\" нельзя переместить в корзину"
     else
-        mv $i $HOME/.Trash/
+        mv -f $i $HOME/.Trash/
     fi
 done
